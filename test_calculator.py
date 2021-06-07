@@ -12,7 +12,7 @@ class TestCalculatorApp:
         assert 5 == calculator.sub(10, 5)
 
     def test_mult(self):
-        assert 10 == calculator.sub(2, 5)
+        assert 10 == calculator.mult(2, 5)
 
     def test_div(self):
-        assert 6 == calculator.sub(3, 2)
+        assert 6 == calculator.div(3, 2)
