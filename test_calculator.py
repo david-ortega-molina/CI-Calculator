@@ -16,5 +16,3 @@ class TestCalculatorApp:
 
     def test_div(self):
         assert 6 == calculator.sub(3, 2)
-
-    
